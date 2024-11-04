@@ -96,7 +96,6 @@ def calculator_results():
         'user_operand2': user_operand2,
         'user_operation': user_operation,
         'result': result
-
     }
     
     return render_template('calculator_results.html', **context)
